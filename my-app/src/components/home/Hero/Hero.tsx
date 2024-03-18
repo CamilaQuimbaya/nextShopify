@@ -1,5 +1,5 @@
-import styles from './Hero.module.css'
 
+import styles from './Hero.module.sass'
 
 
 
@@ -7,7 +7,7 @@ export const Hero = () => {
 
   return (
     <section className={styles.Hero}>
-      <h1>future world </h1>
+      <h1>Future world </h1>
       <h2>Empowering your tomorrow. today!</h2>
     </section>
   )
